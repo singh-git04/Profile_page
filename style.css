@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+/* header styling */
+.header{
+    color: aliceblue;
+    background-color: rgb(30, 23, 71);
+    padding: 40px 20px;
+}
+.header h1{
+    font-style: italic;  
+    font-weight: 700;
+}
+.header p{
+    font-size: 1.2rem;
+     font-weight: 400;
+     margin-top: 10px;
+}
+/* Container to center the content and limit its width */
+.container{
+    max-width: 900px;
+    margin: 20px auto; /* centers the container on the page  */
+    padding: 0 15px;
+}
+
+/* General styling for all sections */
+section{
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* General styling for the "card" paragraphs inside sections */
+/* This avoids repeating code for each section */
+.education p, .skills p, .projects p, .contact p {
+    background-color: white;
+    padding: 15px;
+    margin:10px auto;
+    border-radius: 5px;  /* Use auto for left/right margin to center */
+    max-width: 500px;
+   
+    
+    
+}
+/* About me doesn't need a card style */
+.about p{
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Section specific background colours */
+.about{
+    background-color: whitesmoke;
+}
+
+.education{
+    font-style: italic;
+    background: lightblue ; 
+}
+
+.skills{
+    background-color: rgb(255, 228, 194);
+}
+
+.projects{
+    background-color: rgb(222, 182, 241);
+}
+
+.contact{
+    background-color: rgb(194, 238, 223);
+}
+
+.footer{
+    padding: 20px;
+    color: white;
+    background-color: rgb(53, 53, 73);
+}
