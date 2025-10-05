@@ -10,15 +10,6 @@ You can see the live version of the site right here:
 **[https://singh-git04.github.io/Profile_page/](https://singh-git04.github.io/Profile_page/)**
 
 ---
-
-### 📸 **A Quick Look**
-
-Here’s a preview of the finished project. I recommend creating a short GIF to show off the responsive layout and the hover effects!
-
-![Project Preview](./preview.gif)
-
----
-
 ## About This Project
 
 I designed and built this single-page site to be clean, modern, and easy to navigate. The idea was to create a professional-looking space to list my skills, education, and projects.
